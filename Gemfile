@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 gem "devise"
+gem "will_paginate"
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   "https://github.com/#{repo_name}.git"
